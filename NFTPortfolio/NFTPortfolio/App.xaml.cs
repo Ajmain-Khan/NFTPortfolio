@@ -1,8 +1,4 @@
-﻿using NFTPortfolio.Services;
-using NFTPortfolio.Views;
-using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace NFTPortfolio
 {
@@ -13,7 +9,6 @@ namespace NFTPortfolio
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 

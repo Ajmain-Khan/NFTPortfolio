@@ -1,0 +1,85 @@
+﻿# NFT Portfolio
+
+### Data Structure
+##### Wallet Object:
+> - Name
+> - Address
+> - Stake Key
+##### Dict:
+> - Key: Policy ID's (Collections)
+> - Value: Assets (MetadataModel Objects)
+___
+### Tabbed Pages:
+#### Collection Tab
+###### Features:
+- [ ] Top Bar: search icon, settings icon [enable/disable sort by collection, refresh wallet]
+- [ ] If no wallets added, show add wallet prompt
+- [ ] Longpress to select, multiple, and add to album/create new album, add to favorites
+- [ ] Skip adding duplicates if quantity is 1 in metadata] [Drag down show stats, num of assets, num of diff collections
+
+##### View Options:
+###### Gallery View
+- [ ] Separated by collection (alphabetially) - like dates on samsung/apple gallery apps
+- [ ] all images in one scrollview,
+- [ ] alphabetically descending
+- [ ] akin to gallery app on phone
+
+###### Sort by collection option (Default)
+- [ ] scrollview of collection albums
+- [ ] click to view all assets
+- [ ] store fungible tokens in fungible tokens collection
+
+
+###### Carousel View [Upon clicking an asset]
+- [ ] (</>) Icon on top to view metadata
+- [ ] Star icon to indicate favorite
+
+#### Albums Tab
+
+##### Custom Albums
+- Create, edit, delete albums
+- Share button Link: Idk how to handle this yet | Image: (shares a bitmap image of the entire album)
+
+
+### Flyout:
+##### Manage Wallets
+- Show asset count in wallet
+- Wallets have a name, and address associated with them.
+- Add wallet: [If stake address is already added, throw error]
+	- Address: Enter address string
+    - QR Code: Scan QR Code
+- Enter name of wallet (Give a name for your wallet so you can easily identify between them, ex. NFT Wallet 1)
+- Long press, modify wallet, delete wallet
+
+##### Settings
+- Dark Mode/Light Mode, Cardano Theme
+- Don't store locally
+
+##### Upgrade
+- Unlimited Albums
+- Share albums with more customizable features
+
+##### About
+- Info about me
+- Donate address
+
+
+##### Contact Info:
+> Image Icons for Email, Twitter, and Discord
+
+___
+---
+### Issues
+
+- Metadata variations - can't always pull image uri from metadata
+- Getting stake key from address thru bech32 converter
+- API sometimes grabs assets not owned by wallet (mangled addresses)
+- 
+
+<br><br>
+
+###### Future stuff:
+- 	Login
+- 	AR/VR experience?
+- 	Track NFT trades
+- 	Track prices, cost basis, etc.

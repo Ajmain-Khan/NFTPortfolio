@@ -8,6 +8,25 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#2196F3</Color>
+            <!--<style targettype="button">
+                <setter property="textcolor" value="white"></setter>
+                <setter property="visualstatemanager.visualstategroups">
+                    <visualstategrouplist>
+                        <visualstategroup x:name="commonstates">
+                            <visualstate x:name="normal">
+                                <visualstate.setters>
+                                    <setter property="backgroundcolor" value="{staticresource primary}" />
+                                </visualstate.setters>
+                            </visualstate>
+                            <visualstate x:name="disabled">
+                                <visualstate.setters>
+                                    <setter property="backgroundcolor" value="#332196f3" />
+                                </visualstate.setters>
+                            </visualstate>
+                        </visualstategroup>
+                    </visualstategrouplist>
+                </setter>
+            </style>-->
         </ResourceDictionary>        
     </Application.Resources>
 </Application>

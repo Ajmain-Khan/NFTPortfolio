@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NFTPortfolio.Views
+namespace NFTPortfolio
 {
-    class CollectionPage
+    class Startup
     {
     }
 }

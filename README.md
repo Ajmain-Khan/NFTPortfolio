@@ -13,6 +13,6 @@ Allows for viewing of assets and metadata from Cardano wallet addresses using th
 
 #### Short Demo *(collections page)*
 
-
+https://user-images.githubusercontent.com/71261373/229384276-47caef39-b7ec-47a3-859b-2ad7216a987e.mp4
 
 ###### This is an ongoing exploratory personal project for learning purposes.
